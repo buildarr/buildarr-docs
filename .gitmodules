@@ -1,0 +1,6 @@
+[submodule "externals/buildarr"]
+	path = externals/buildarr
+	url = ../buildarr.git
+[submodule "externals/buildarr-sonarr"]
+	path = externals/buildarr-sonarr
+	url = ../buildarr-sonarr.git
