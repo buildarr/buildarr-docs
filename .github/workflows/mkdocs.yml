@@ -1,7 +1,6 @@
 name: mkdocs
 
 on:
-  pull_request:
   push:
     branches:
       - main

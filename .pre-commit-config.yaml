@@ -11,6 +11,7 @@ repos:
       - id: trailing-whitespace
       - id: mixed-line-ending
       - id: end-of-file-fixer
+        exclude: ^docs/
       - id: detect-private-key
       - id: check-added-large-files
       - id: check-merge-conflict
