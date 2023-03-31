@@ -1,0 +1,1 @@
+../../externals/buildarr/docs/plugins/index.md
