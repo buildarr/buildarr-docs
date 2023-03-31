@@ -1,5 +1,5 @@
-buildarr @ externals/buildarr ; python_version >= "3.8" and python_version < "4.0"
-buildarr-sonarr @ externals/buildarr-sonarr ; python_version >= "3.8" and python_version < "4.0"
+externals/buildarr ; python_version >= "3.8" and python_version < "4.0"
+externals/buildarr-sonarr ; python_version >= "3.8" and python_version < "4.0"
 certifi==2022.12.7 ; python_version >= "3.8" and python_version < "4"
 charset-normalizer==3.1.0 ; python_version >= "3.8" and python_version < "4"
 click-params==0.4.1 ; python_version >= "3.8" and python_version < "4.0"
