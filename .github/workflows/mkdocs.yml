@@ -1,13 +1,14 @@
 name: mkdocs
 
 on:
+  pull_request:
   push:
     branches:
       - main
 
 jobs:
   build:
-    name: Deploy docs to GitHub Pages
+    name: Deploy to GitHub Pages
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
@@ -21,3 +22,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
+          external_repository: buildarr/buildarr.github.io
+          publish_branch: main
