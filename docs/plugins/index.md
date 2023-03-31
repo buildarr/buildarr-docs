@@ -1,1 +1,1 @@
-../../externals/buildarr/docs/index.md
+../../externals/buildarr/docs/plugins/index.md
