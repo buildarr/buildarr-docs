@@ -23,8 +23,9 @@ repos:
         args: ["--no-update"]
       # - id: poetry-export
       #   args: ["-f", "requirements.txt", "-o", "requirements.txt", "--without-hashes"]
-      - id: poetry-export
+      - id: poetry-export-custom
+        name: poetry-export
         language: script
-        language_version: null
         entry: scripts/poetry-export.sh
-        args: []
+        files: ^poetry\.lock$
+        pass_filenames: false
