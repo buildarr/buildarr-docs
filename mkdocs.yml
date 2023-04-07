@@ -59,9 +59,8 @@ nav:
           - Tags: "plugins/prowlarr/configuration/settings/tags.md"
           - General: "plugins/prowlarr/configuration/settings/general.md"
           - UI: "plugins/prowlarr/configuration/settings/ui.md"
-      - Buildarr: "https://buildarr.github.io"
-      - GitHub: "https://github.com/buildarr/buildarr-prowlarr"
   - Usage: "usage.md"
+  - GitHub: "https://github.com/buildarr/buildarr"
   # TODO: Development documentation.
   # - Development:
   #   - Introduction: "development/index.md"
