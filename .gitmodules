@@ -4,3 +4,6 @@
 [submodule "externals/buildarr-sonarr"]
 	path = externals/buildarr-sonarr
 	url = ../buildarr-sonarr.git
+[submodule "externals/buildarr-prowlarr"]
+	path = externals/buildarr-prowlarr
+	url = ../buildarr-prowlarr.git

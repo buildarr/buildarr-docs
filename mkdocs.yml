@@ -42,6 +42,25 @@ nav:
         - Tags: "plugins/sonarr/configuration/tags.md"
         - General: "plugins/sonarr/configuration/general.md"
         - UI: "plugins/sonarr/configuration/ui.md"
+    - Buildarr Prowlarr Plugin:
+      - Introduction: "plugins/prowlarr/index.md"
+      - Release Notes: "plugins/prowlarr/release-notes.md"
+      - Configuration:
+        - Host Configuration: "plugins/prowlarr/configuration/host.md"
+        - Settings:
+          - Indexers:
+            - Indexers: "plugins/prowlarr/configuration/settings/indexers/indexers.md"
+            - Proxies: "plugins/prowlarr/configuration/settings/indexers/proxies.md"
+          - Apps:
+            - Applications: "plugins/prowlarr/configuration/settings/apps/applications.md"
+            - Sync Profiles: "plugins/prowlarr/configuration/settings/apps/sync-profiles.md"
+          - Download Clients: "plugins/prowlarr/configuration/settings/download-clients.md"
+          - Notifications: "plugins/prowlarr/configuration/settings/notifications.md"
+          - Tags: "plugins/prowlarr/configuration/settings/tags.md"
+          - General: "plugins/prowlarr/configuration/settings/general.md"
+          - UI: "plugins/prowlarr/configuration/settings/ui.md"
+      - Buildarr: "https://buildarr.github.io"
+      - GitHub: "https://github.com/buildarr/buildarr-prowlarr"
   - Usage: "usage.md"
   # TODO: Development documentation.
   # - Development:
