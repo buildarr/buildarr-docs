@@ -20,6 +20,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = ">=3.8,<4.0"
 mkdocs = "1.4.2"
-mkdocstrings = {extras = ["python"], version = "0.20.0"}
+mkdocstrings = {extras = ["python"], version = "0.21.2"}
 buildarr = {path = "externals/buildarr"}
 buildarr-sonarr = {path = "externals/buildarr-sonarr"}
+buildarr-prowlarr = {path = "externals/buildarr-prowlarr"}
