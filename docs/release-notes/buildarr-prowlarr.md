@@ -1,0 +1,1 @@
+../../externals/buildarr-prowlarr/docs/release-notes.md

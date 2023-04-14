@@ -17,7 +17,11 @@ markdown_extensions:
   - pymdownx.superfences
 
 nav:
-  - Release Notes: "release-notes.md"
+  - Release Notes:
+    - Buildarr Docker Container: "release-notes/buildarr-docker.md"
+    - Buildarr Core: "release-notes/buildarr.md"
+    - Buildarr Sonarr Plugin: "release-notes/buildarr-sonarr.md"
+    - Buildarr Prowlarr Plugin: "release-notes/buildarr-prowlarr.md"
   - Installation: "installation.md"
   - Configuration: "configuration.md"
   - Plugins:
