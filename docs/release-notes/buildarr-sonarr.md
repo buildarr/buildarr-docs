@@ -1,1 +1,0 @@
-../../externals/buildarr-sonarr/docs/release-notes.md
