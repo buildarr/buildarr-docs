@@ -24,3 +24,4 @@ mkdocstrings = {extras = ["python"], version = "0.21.2"}
 buildarr = {path = "externals/buildarr"}
 buildarr-sonarr = {path = "externals/buildarr-sonarr"}
 buildarr-prowlarr = {path = "externals/buildarr-prowlarr"}
+buildarr-jellyseerr = {path = "externals/buildarr-jellyseerr"}
