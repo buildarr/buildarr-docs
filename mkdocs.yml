@@ -8,6 +8,9 @@ plugins:
         python:
           options:
             docstring_style: google
+            show_root_heading: false
+            show_source: false
+            show_bases: false
 
 markdown_extensions:
   - toc:
@@ -17,7 +20,11 @@ markdown_extensions:
   - pymdownx.superfences
 
 nav:
-  - Release Notes: "release-notes.md"
+  - Release Notes:
+    - Buildarr Core: "release-notes.md"
+    - Buildarr Sonarr Plugin: "plugins/sonarr/release-notes.md"
+    - Buildarr Prowlarr Plugin: "plugins/prowlarr/release-notes.md"
+    - Buildarr Docker Container: "docker/release-notes.md"
   - Installation: "installation.md"
   - Configuration: "configuration.md"
   - Plugins:
