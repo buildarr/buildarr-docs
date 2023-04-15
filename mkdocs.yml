@@ -24,6 +24,7 @@ nav:
     - Buildarr Core: "release-notes.md"
     - Buildarr Sonarr Plugin: "plugins/sonarr/release-notes.md"
     - Buildarr Prowlarr Plugin: "plugins/prowlarr/release-notes.md"
+    - Buildarr Jellyseerr Plugin: "plugins/jellyseerr/release-notes.md"
     - Buildarr Docker Container: "docker/release-notes.md"
   - Installation: "installation.md"
   - Configuration: "configuration.md"
@@ -66,6 +67,19 @@ nav:
           - Tags: "plugins/prowlarr/configuration/settings/tags.md"
           - General: "plugins/prowlarr/configuration/settings/general.md"
           - UI: "plugins/prowlarr/configuration/settings/ui.md"
+    - Buildarr Jellyseerr Plugin:
+      - Introduction: "plugins/jellyseerr/index.md"
+      - Release Notes: "plugins/jellyseerr/release-notes.md"
+      - Configuration:
+        - Host Configuration: "plugins/jellyseerr/configuration/host.md"
+        - Settings:
+          - General: "plugins/jellyseerr/configuration/settings/general.md"
+          - Users: "plugins/jellyseerr/configuration/settings/users.md"
+          - Jellyfin: "plugins/jellyseerr/configuration/settings/jellyfin.md"
+          - Services:
+            - Sonarr: "plugins/jellyseerr/configuration/settings/services/sonarr.md"
+            - Radarr: "plugins/jellyseerr/configuration/settings/services/radarr.md"
+          - Notifications: "plugins/jellyseerr/configuration/settings/notifications.md"
   - Usage: "usage.md"
   - GitHub: "https://github.com/buildarr/buildarr"
   # TODO: Development documentation.

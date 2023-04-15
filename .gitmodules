@@ -7,3 +7,6 @@
 [submodule "externals/buildarr-prowlarr"]
 	path = externals/buildarr-prowlarr
 	url = ../buildarr-prowlarr.git
+[submodule "externals/buildarr-jellyseerr"]
+	path = externals/buildarr-jellyseerr
+	url = ../buildarr-jellyseerr.git

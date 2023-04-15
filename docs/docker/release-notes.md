@@ -1,5 +1,9 @@
 # Release Notes (Buildarr Docker Container)
 
+## v0.4.5 - 2023-04-15
+
+* Add the [Jellyseerr plugin](../plugins/jellyseerr/index.md) to the container
+
 ## v0.4.4 - 2023-04-14
 
 * Update Buildarr to [v0.4.2](../release-notes.md#v042-2023-04-14)
