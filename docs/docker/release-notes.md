@@ -1,5 +1,11 @@
 # Release Notes (Buildarr Docker Container)
 
+## v0.5.0 - 2023-04-16
+
+* Update Buildarr to [v0.5.0](../release-notes.md#v050-2023-04-16)
+* Update the Sonarr plugin to [v0.5.0](../plugins/sonarr/release-notes.md#v050-2023-04-16)
+* Update the Prowlarr plugin to [v0.2.0](../plugins/prowlarr/release-notes.md#v020-2023-04-16)
+
 ## v0.4.5 - 2023-04-15
 
 * Add the [Jellyseerr plugin](../plugins/jellyseerr/index.md) to the container
