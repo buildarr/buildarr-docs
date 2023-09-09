@@ -10,3 +10,6 @@
 [submodule "externals/buildarr-jellyseerr"]
 	path = externals/buildarr-jellyseerr
 	url = ../buildarr-jellyseerr.git
+[submodule "externals/buildarr-radarr"]
+	path = externals/buildarr-radarr
+	url = ../buildarr-radarr.git
