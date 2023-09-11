@@ -1,5 +1,11 @@
 # Release Notes (Buildarr Docker Container)
 
+## v0.6.2 - 2023-09-11
+
+* Update Buildarr Core to v0.6.1 [v0.6.1](https://buildarr.github.io/release-notes#v061-2023-09-11)
+* Update the Sonarr plugin for Buildarr to [v0.5.3](https://buildarr.github.io/plugins/sonarr/release-notes#v053-2023-09-11)
+
+
 ## v0.6.1 - 2023-09-09
 
 * Update the Radarr plugin for Buildarr to [v0.1.1](https://buildarr.github.io/plugins/radarr/release-notes#v011-2023-09-09)
