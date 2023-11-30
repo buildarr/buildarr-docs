@@ -100,7 +100,7 @@ url = "externals/buildarr-radarr"
 
 [[package]]
 name = "buildarr-sonarr"
-version = "0.6.1"
+version = "0.6.2"
 description = "Sonarr PVR plugin for Buildarr"
 optional = false
 python-versions = ">=3.8,<4.0"
