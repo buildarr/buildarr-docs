@@ -40,7 +40,7 @@ url = "externals/buildarr"
 
 [[package]]
 name = "buildarr-jellyseerr"
-version = "0.3.0"
+version = "0.3.1"
 description = "Jellyseerr media request library application plugin for Buildarr"
 optional = false
 python-versions = ">=3.8,<4.0"
@@ -60,7 +60,7 @@ url = "externals/buildarr-jellyseerr"
 
 [[package]]
 name = "buildarr-prowlarr"
-version = "0.5.0"
+version = "0.5.1"
 description = "Prowlarr indexer manager plugin for Buildarr"
 optional = false
 python-versions = ">=3.8,<4.0"
@@ -82,7 +82,7 @@ url = "externals/buildarr-prowlarr"
 
 [[package]]
 name = "buildarr-radarr"
-version = "0.2.2"
+version = "0.2.3"
 description = "Radarr movie PVR plugin for Buildarr "
 optional = false
 python-versions = ">=3.8,<4.0"
@@ -100,7 +100,7 @@ url = "externals/buildarr-radarr"
 
 [[package]]
 name = "buildarr-sonarr"
-version = "0.6.2"
+version = "0.6.3"
 description = "Sonarr PVR plugin for Buildarr"
 optional = false
 python-versions = ">=3.8,<4.0"
