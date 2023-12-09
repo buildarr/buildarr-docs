@@ -7,9 +7,9 @@ on:
 
 jobs:
   build:
-    name: Build docs
+    name: Build
     uses: ./.github/workflows/build.yml
   publish:
-    name: Publish docs
+    name: Publish
     uses: ./.github/workflows/publish.yml
     needs: build
