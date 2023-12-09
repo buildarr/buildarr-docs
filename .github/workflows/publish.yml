@@ -1,0 +1,29 @@
+name: publish
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - build
+    branches:
+      - main
+    types:
+      - completed
+
+jobs:
+  publish-githubpages:
+    name: Publish to GitHub Pages
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Download Buildarr Docs from build artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: buildarr-docs
+          path: site
+      - name: Publish Buildarr Docs to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          publish_dir: ./site
+          external_repository: buildarr/buildarr.github.io
+          publish_branch: main
