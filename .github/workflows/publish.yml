@@ -4,8 +4,11 @@ on:
   workflow_call:
 
 jobs:
-  publish-githubpages:
-    name: GitHub Pages
+  publish-buildarr-github-io:
+    name: buildarr.github.io
+    environment:
+      name: buildarr.github.io
+      url: https://buildarr.github.io
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout with submodules
@@ -17,11 +20,11 @@ jobs:
         with:
           name: buildarr-docs
           path: site
-      - name: Publish docs to GitHub Pages
+      - name: Publish docs to buildarr.github.io
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: site
-          repository-name: buildarr/buildarr.github.io
-          branch: main
+          repository-name: ${{ vars.DEPLOY_REPOSITORY }}
+          branch: ${{ vars.DEPLOY_BRANCH }}
           ssh-key: ${{ secrets.DEPLOY_KEY }}
           clean: true
