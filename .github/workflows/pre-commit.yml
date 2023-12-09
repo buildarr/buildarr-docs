@@ -2,7 +2,7 @@ name: Pre-commit hooks
 
 on:
   workflow_dispatch:
-  workflow_run:
+  workflow_call:
 
 jobs:
   pre-commit:
