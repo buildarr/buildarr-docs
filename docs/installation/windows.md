@@ -61,7 +61,7 @@ Continue following the on-screen instructions until installation is complete.
 
     You will need to create a `buildarr.yml` file to start using Buildarr.
 
-    For more information on how to create `buildarr.yml`, refer to [Configuration](../configuration.md).
+    For more information on how to create `buildarr.yml`, refer to [Configuring Buildarr](../configuration.md).
 
 Buildarr will install the following shortcuts to the Windows start menu:
 
@@ -79,7 +79,7 @@ To check that it works, open your terminal and run the following command:
 buildarr --help
 ```
 
-For more information on the available Buildarr CLI commands, refer to [Usage](#usage).
+For more information on the available Buildarr CLI commands, refer to [Using Buildarr](../usage.md).
 
 ### Plugins
 
@@ -113,7 +113,7 @@ You may need to open an administrator command prompt/terminal at this location t
 
 ### Uninstallation
 
-Buildarr will be listed in "Add or Remove Programs" as a standard application, and can be uninstalled there like any other application.
+Buildarr will be listed in "Add or Remove Programs" as a standard application, and can be uninstalled from there like any other application.
 
 ![Look for "Buildarr" in "Add or Remove Programs", and uninstall it from there.](buildarr-installer-8.png)
 
@@ -127,7 +127,7 @@ However, [NSSM (the Non-Sucking Service Manager)](https://nssm.cc) can be used t
 
 [Download NSSM](https://nssm.cc/download) and save the EXE to a path that is accessible using the command prompt (the `PATH` environment variable).
 
-Install Buildarr using the [Buildarr Installer for Windows](#installer), and then run the following commands
+Install Buildarr using the [Buildarr Installer for Windows](#using-the-buildarr-installer), and then run the following commands
 (substituting `C:\path\to` and `C:\path\to\buildarr.yml` for the location of your [Buildarr configuration file](../configuration.md)).
 
 ```bat

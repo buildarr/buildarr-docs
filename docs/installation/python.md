@@ -7,11 +7,11 @@ As Buildarr uses a plugin architecture to implement its integrations with *Arr s
 * [`buildarr`](https://pypi.org/project/buildarr) (also known as Buildarr Core), the base package that implements the `buildarr` command.
 * Plugin packages for managing different types of applications:
     * [`buildarr-sonarr`](https://pypi.org/project/buildarr-sonarr), the Buildarr plugin for the [Sonarr](https://sonarr.tv) PVR for TV shows.
-    * [`buildarr-radarr`](https://pypi.org/project/buildarr-radarr), the Buildarr plugin for the [Radarr](https://sonarr.tv) PVR for movies.
+    * [`buildarr-radarr`](https://pypi.org/project/buildarr-radarr), the Buildarr plugin for the [Radarr](https://radarr.video) PVR for movies.
     * [`buildarr-prowlarr`](https://pypi.org/project/buildarr-prowlarr), the Buildarr plugin for the [Prowlarr](https://prowlarr.com) indexer manager.
     * [`buildarr-jellyseerr`](https://pypi.org/project/buildarr-jellyseerr), the Buildarr plugin for the [Jellyseerr](https://github.com/Fallenbagel/jellyseerr) media request manager.
 
-When installing Buildarr [using Docker](docker.md) or [the Windows installer](windows.md#installer), these packages are bundled together, so no additional installation is usually necessary.
+When installing Buildarr [using Docker](docker.md) or [the Windows installer](windows.md#using-the-buildarr-installer), these packages are bundled together, so no additional installation is usually necessary.
 
 Documented below are recommended methods for installing and using Buildarr as a native Python application.
 
