@@ -26,6 +26,5 @@ jobs:
           folder: site
           repository-name: ${{ vars.DEPLOY_REPOSITORY }}
           branch: ${{ vars.DEPLOY_BRANCH }}
-          ssh-key: |
-            ${{ secrets.DEPLOY_KEY }}
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
           clean: true
