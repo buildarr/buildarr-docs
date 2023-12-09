@@ -1,4 +1,4 @@
-name: Main
+name: main
 
 on:
   push:
@@ -7,7 +7,9 @@ on:
 
 jobs:
   build:
+    name: Build docs
     uses: ./.github/workflows/build.yml
   publish:
+    name: Publish docs
     uses: ./.github/workflows/publish.yml
     needs: build

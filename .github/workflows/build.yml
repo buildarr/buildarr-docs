@@ -5,20 +5,8 @@ on:
   workflow_call:
 
 jobs:
-  build-precommit:
-    name: Run pre-commit hooks
-    runs-on: ubuntu-22.04
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          submodules: true
-      - uses: actions/setup-python@v4
-        with:
-          python-version: "3.11"
-      - uses: pre-commit/action@v3.0.0
   build-mkdocs:
     name: Build docs using MkDocs
-    needs: build-precommit
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout with submodules

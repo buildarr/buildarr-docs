@@ -5,7 +5,9 @@ on:
 
 jobs:
   pre-commit:
+    name: Run pre-commit hooks
     uses: ./.github/workflows/pre-commit.yml
   build:
+    name: Build docs
     uses: ./.github/workflows/build.yml
     needs: pre-commit
