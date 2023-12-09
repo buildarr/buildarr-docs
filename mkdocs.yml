@@ -27,7 +27,11 @@ nav:
     - Buildarr Prowlarr Plugin: plugins/prowlarr/release-notes.md
     - Buildarr Jellyseerr Plugin: plugins/jellyseerr/release-notes.md
     - Buildarr Docker Container: docker/release-notes.md
-  - Installation: installation.md
+    - Buildarr Installer for Windows: installer/release-notes.md
+  - Installation:
+    - Docker Container: installation/docker.md
+    - Python Application: installation/python.md
+    - Windows: installation/windows.md
   - Configuration: configuration.md
   - Plugins:
     - Introduction: plugins/index.md

@@ -21,6 +21,7 @@ readme = "README.md"
 python = ">=3.8,<4.0"
 mkdocs = "1.5.3"
 mkdocstrings = {extras = ["python"], version = "0.23.0"}
+pymdown-extensions = "10.5"
 buildarr = {path = "externals/buildarr"}
 buildarr-sonarr = {path = "externals/buildarr-sonarr"}
 buildarr-radarr = {path = "externals/buildarr-radarr"}
