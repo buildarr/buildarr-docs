@@ -1,4 +1,4 @@
-name: Build Docs
+name: Build
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-mkdocs:
-    name: Build docs using MkDocs
+    name: MkDocs
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout with submodules
