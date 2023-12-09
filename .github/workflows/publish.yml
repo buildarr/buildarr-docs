@@ -1,13 +1,7 @@
-name: Publsh
+name: Publish Docs
 
 on:
   workflow_run:
-    workflows:
-      - Build
-    branches:
-      - main
-    types:
-      - completed
 
 jobs:
   publish-githubpages:
