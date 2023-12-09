@@ -1,5 +1,10 @@
 # Release Notes (Buildarr Installer for Windows)
 
+## [v0.7.5](https://github.com/buildarr/buildarr-installer/releases/tag/v0.7.5) - 2023-12-06
+
+* Update the Radarr plugin for Buildarr to [v0.2.4](https://buildarr.github.io/plugins/radarr/release-notes#v024-2023-12-10)
+
+
 ## [v0.7.4](https://github.com/buildarr/buildarr-installer/releases/tag/v0.7.4) - 2023-12-06
 
 Initial release of the Buildarr installer for Windows, including the following components:
