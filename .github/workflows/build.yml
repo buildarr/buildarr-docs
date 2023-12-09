@@ -1,4 +1,4 @@
-name: build
+name: Build
 
 on:
   workflow_dispatch:
@@ -9,6 +9,7 @@ on:
 
 jobs:
   build-precommit:
+    name: Run pre-commit hooks
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
@@ -19,7 +20,7 @@ jobs:
           python-version: "3.11"
       - uses: pre-commit/action@v3.0.0
   build-mkdocs:
-    name: Test MkDocs
+    name: Build docs using MkDocs
     needs: build-precommit
     runs-on: ubuntu-22.04
     steps:

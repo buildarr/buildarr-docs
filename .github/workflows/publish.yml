@@ -1,9 +1,9 @@
-name: publish
+name: Publsh
 
 on:
   workflow_run:
     workflows:
-      - build
+      - Build
     branches:
       - main
     types:
@@ -11,7 +11,7 @@ on:
 
 jobs:
   publish-githubpages:
-    name: Publish to GitHub Pages
+    name: Publish docs to GitHub Pages
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-22.04
     steps:
@@ -20,7 +20,7 @@ jobs:
         with:
           name: buildarr-docs
           path: site
-      - name: Publish Buildarr Docs to GitHub Pages
+      - name: Publish docs to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
