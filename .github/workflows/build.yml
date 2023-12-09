@@ -2,20 +2,26 @@ name: build
 
 on:
   workflow_dispatch:
-  workflow_run:
-    workflows:
-      - pre-commit
-    types:
-      - completed
+  pull_request:
   push:
     branches:
       - main
 
 jobs:
+  build-precommit:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+      - uses: pre-commit/action@v3.0.0
   build-mkdocs:
     name: Test MkDocs
+    needs: build-precommit
     runs-on: ubuntu-22.04
-    if: ${{ github.event.push.ref == 'refs/heads/main' || github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: Checkout with submodules
         uses: actions/checkout@v3
