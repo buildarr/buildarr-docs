@@ -30,8 +30,8 @@ Buildarr attempts to fulfill some of the needs of users of the following project
 Buildarr can be installed using a variety of methods, on all of the same platforms as the *Arr stack applications:
 
 * [As a Docker container](installation/docker.md)
-* [As a standard Python application](installer/python.md)
-* [On Windows (either using an installer, or as a standard Python application)](installer/windows.md)
+* [As a standard Python application](installation/python.md)
+* [On Windows (either using an installer, or as a standard Python application)](installation/windows.md)
 
 Buildarr uses a plugin architecture to allow additional applications to be supported.
 
@@ -52,7 +52,7 @@ It contains not only the settings for Buildarr itself, but also the application 
 
 Any configuration on the remote instance not explicitly defined in the Buildarr configuration is not modified.
 
-For more information on how Buildarr uses configuration and how to configure Buildarr itself, check the [configuration documentation](configuration.md).
+For more information on how Buildarr uses configuration and how to configure Buildarr itself, refer to [Configuring Buildarr](configuration.md).
 
 Here is an example of a simple Buildarr configuration that changes some settings on a Sonarr instance:
 
@@ -160,7 +160,7 @@ After this initial run, Buildarr will wake up at scheduled times to periodically
 2023-11-12 10:00:52,875 buildarr:1 buildarr.cli.daemon [INFO] Buildarr ready.
 ```
 
-For more information on how to interfact with Buildarr, check the [usage documentation](usage.md).
+For more information on how to interfact with Buildarr, refer to [Using Buildarr](usage.md).
 
 ## Milestones
 
@@ -172,7 +172,7 @@ For more information on how to interfact with Buildarr, check the [usage documen
     * Sonarr V4
     * ~~Radarr~~ (now available as [`buildarr-radarr`](plugins/radarr/index.md))
     * ~~Prowlarr~~ (now available as [`buildarr-prowlarr`](plugins/prowlarr/index.md))
-    * ~~Jellyseerr~~ (now available as [`buildarr-jellyseerr`](plugins/jellyseerr.md))
+    * ~~Jellyseerr~~ (now available as [`buildarr-jellyseerr`](plugins/jellyseerr/index.md))
     * Bazarr
     * Unmanic
     * Unpackerr
