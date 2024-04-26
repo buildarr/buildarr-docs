@@ -75,7 +75,7 @@ url = "externals/buildarr-jellyseerr"
 
 [[package]]
 name = "buildarr-prowlarr"
-version = "0.5.1"
+version = "0.5.2"
 description = "Prowlarr indexer manager plugin for Buildarr"
 optional = false
 python-versions = ">=3.8,<4.0"
@@ -97,7 +97,7 @@ url = "externals/buildarr-prowlarr"
 
 [[package]]
 name = "buildarr-radarr"
-version = "0.2.5"
+version = "0.2.6"
 description = "Radarr movie PVR plugin for Buildarr "
 optional = false
 python-versions = ">=3.8,<4.0"
