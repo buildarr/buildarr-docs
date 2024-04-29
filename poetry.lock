@@ -75,7 +75,7 @@ url = "externals/buildarr-jellyseerr"
 
 [[package]]
 name = "buildarr-prowlarr"
-version = "0.5.2"
+version = "0.5.3"
 description = "Prowlarr indexer manager plugin for Buildarr"
 optional = false
 python-versions = ">=3.8,<4.0"
@@ -85,6 +85,7 @@ develop = false
 [package.dependencies]
 buildarr = ">=0.7.0,<0.8.0"
 json5 = ">=0.9.7"
+packaging = "*"
 prowlarr-py = ">=0.4.1,<0.5.0"
 
 [package.extras]
