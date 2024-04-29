@@ -1,5 +1,10 @@
 # Release Notes (Buildarr Installer for Windows)
 
+## [v0.7.8](https://github.com/buildarr/buildarr-installer/releases/tag/v0.7.8) - 2024-04-29
+
+* Update the Prowlarr plugin for Buildarr to [v0.5.3](https://buildarr.github.io/plugins/prowlarr/release-notes#v053-2024-04-29)
+
+
 ## [v0.7.7](https://github.com/buildarr/buildarr-installer/releases/tag/v0.7.7) - 2024-04-26
 
 * Update the Radarr plugin for Buildarr to [v0.2.6](https://buildarr.github.io/plugins/radarr/release-notes#v026-2024-04-26)
